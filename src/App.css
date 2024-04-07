@@ -1,0 +1,71 @@
+.App {
+	text-align: center;
+	min-height: 100vh;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.dark-shadow {
+	box-shadow: 0 0.5rem 1rem black;
+}
+
+.clearSky {
+	background-image: url(./img/clearSky.jpg) !important;
+	object-fit: cover;
+	background-repeat: no-repeat;
+}
+
+.scatteredClouds {
+	background-image: url(./img/brokenClouds.jpg) !important;
+	object-fit: cover;
+	background-repeat: no-repeat;
+}
+.rain {
+	background-image: url(./img/rain.jpg) !important;
+	object-fit: cover;
+}
+.thunderstorm {
+	background-image: url(./img/thunderstorm.webp) !important;
+	object-fit: cover;
+}
+.snow {
+	background-image: url(./img/snow.jpg) !important;
+	object-fit: cover;
+}
+.mist {
+	background-image: url(./img/mist.jpg) !important;
+	object-fit: cover;
+}
